@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #f4f4f4;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #4285F4;
+      color: white;
+      border-radius: 6px;
+    }
+
+    button:hover {
+      background-color: #2a65d0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome 👋</h1>
+  <p>Click the button below to open the dashboard</p>
+
+  <button onclick="openReport()">Open Report</button>
+
+  <script>
+    function openReport() {
+      window.open(
+        "https://lookerstudio.google.com/reporting/f151bb46-41c2-4800-8dc7-0364e66d1f37/page/QNyuF/edit",
+        "_blank"
+      );
+    }
+  </script>
+
+</body>
+</html>
