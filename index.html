@@ -2,33 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Dashboard</title>
+  <title>Ninavan Philippines Fulfillment Team</title>
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #800000; /* maroon */
+      color: white;
     }
 
     header {
       text-align: center;
-      padding: 15px;
-      background: #f4f4f4;
+      padding: 20px;
+      background-color: #5a0000;
+      color: white;
     }
 
-    a {
-      display: inline-block;
-      margin-top: 8px;
-      padding: 10px 15px;
-      background: #4285F4;
+    h1 {
+      margin: 0;
+      font-size: 26px;
       color: white;
+    }
+
+    p {
+      color: #f2f2f2;
+      margin-top: 8px;
+    }
+
+    .link-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: white;
+      color: black;
       text-decoration: none;
       border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .link-btn:hover {
+      background: #e6e6e6;
     }
 
     iframe {
       width: 100%;
-      height: 90vh;
+      height: 85vh;
       border: none;
+      background: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #5a0000;
+      color: white;
+      font-size: 12px;
     }
   </style>
 </head>
@@ -36,19 +65,25 @@
 <body>
 
   <header>
-    <h2>Dashboard 📊</h2>
+    <h1>Ninavan Philippines Fulfillment Team</h1>
+    <p>Live Operations Dashboard</p>
 
-    <!-- Clickable link -->
-    <a href="https://lookerstudio.google.com/reporting/f151bb46-41c2-4800-8dc7-0364e66d1f37/page/QNyuF/edit"
+    <!-- clickable link -->
+    <a class="link-btn"
+       href="https://lookerstudio.google.com/reporting/f151bb46-41c2-4800-8dc7-0364e66d1f37/page/QNyuF"
        target="_blank">
-      Open in Full Screen
+      Open Full Dashboard
     </a>
   </header>
 
-  <!-- Embedded dashboard -->
+  <!-- embedded dashboard -->
   <iframe
-    src="https://lookerstudio.google.com/reporting/f151bb46-41c2-4800-8dc7-0364e66d1f37/page/QNyuF/edit">
+    src="https://lookerstudio.google.com/embed/reporting/f151bb46-41c2-4800-8dc7-0364e66d1f37/page/QNyuF">
   </iframe>
+
+  <footer>
+    Ninavan Philippines Fulfillment Team © 2026
+  </footer>
 
 </body>
 </html>
